@@ -1,0 +1,31 @@
+2014-04-07T09:39:35.763504000 0.343216s info: Creating directory /Users/christerhansen/Utvikling/NodeJS/enapp/rethinkdb_data
+2014-04-07T09:39:35.763638000 0.343350s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/christerhansen/Utvikling/NodeJS/enapp/rethinkdb_data' did not already exist.)
+2014-04-07T09:39:35.763682000 0.343394s info: Running rethinkdb 1.12.1 (CLANG 5.1 (clang-503.0.38))...
+2014-04-07T09:39:35.767780000 0.347492s info: Running on Darwin 13.1.0 x86_64
+2014-04-07T09:39:35.767833000 0.347545s info: Using cache size of 422 MB
+2014-04-07T09:39:35.767856000 0.347568s info: Loading data from directory /Users/christerhansen/Utvikling/NodeJS/enapp/rethinkdb_data
+2014-04-07T09:39:35.924958000 0.504670s info: Listening for intracluster connections on port 29015
+2014-04-07T09:39:35.926157000 0.505868s info: Listening for client driver connections on port 28015
+2014-04-07T09:39:35.926245000 0.505957s info: Listening for administrative HTTP connections on port 8080
+2014-04-07T09:39:35.926265000 0.505977s info: Listening on addresses: 127.0.0.1, ::1
+2014-04-07T09:39:35.926267000 0.505979s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-04-07T09:39:35.926284000 0.505995s info: by running rethinkdb with the `--bind all` command line option.
+2014-04-07T09:39:35.926341000 0.506053s info: Server ready
+2014-04-07T09:39:54.659009000 19.237296s info: Server got SIGINT from pid 36713, uid 501; shutting down...
+2014-04-07T09:39:54.659223000 19.237508s info: Shutting down client connections...
+2014-04-07T09:39:54.659716000 19.238002s info: All client connections closed.
+2014-04-07T09:39:54.659723000 19.238009s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-04-07T09:39:54.659748000 19.238034s info: Storage engine shut down.
+2014-04-07T09:41:12.953190000 0.003386s info: Running rethinkdb 1.12.1 (CLANG 5.1 (clang-503.0.38))...
+2014-04-07T09:41:12.956239000 0.006436s info: Running on Darwin 13.1.0 x86_64
+2014-04-07T09:41:12.956272000 0.006468s info: Using cache size of 423 MB
+2014-04-07T09:41:12.956295000 0.006491s info: Loading data from directory /Users/christerhansen/Utvikling/NodeJS/enapp/rethinkdb_data
+2014-04-07T09:41:12.968153000 0.018349s info: Listening for intracluster connections on port 29015
+2014-04-07T09:41:12.969252000 0.019448s info: Listening for client driver connections on port 28015
+2014-04-07T09:41:12.969325000 0.019521s info: Listening for administrative HTTP connections on port 8080
+2014-04-07T09:41:12.969327000 0.019523s info: Listening on addresses: 127.0.0.1, ::1
+2014-04-07T09:41:12.969359000 0.019555s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-04-07T09:41:12.969372000 0.019567s info: by running rethinkdb with the `--bind all` command line option.
+2014-04-07T09:41:12.969396000 0.019592s info: Server ready
+2014-04-07T09:41:55.042867000 42.090212s info: Applying data {"databases":{"new":{"name":"enapp"}}}
+2014-04-07T09:42:09.229947000 56.275866s info: Applying data {"rdb_namespaces":{"new":{"name":"user","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"74901c3b-4016-4757-aaaf-e48ab306807e","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}

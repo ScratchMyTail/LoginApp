@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	div Logget inn
+	ul
+		each user in res
+			li #{user.name} - #{user.password}

@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	form(method="post")
+		h2 #{msg}
+		h3 Brukernavn
+		input(type="text" name="brukernavn")
+		h3 Passord
+		input(type="password" name="passord")
+		br
+		input(type="submit" value="Logg inn")
